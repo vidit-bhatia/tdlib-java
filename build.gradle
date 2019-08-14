@@ -18,6 +18,16 @@
  *           2014-2015 Aliaksei Levin
  */
 
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.2'
+    }
+}
 apply plugin: 'com.android.library'
 
 android {
